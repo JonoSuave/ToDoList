@@ -13,6 +13,7 @@ function taskGenerator(){
 		listItemArray = taskItem.value.split(',');
 		for(i=0;i<listItemArray.length;i++){
 			var newUlItem = document.createElement("li");
+			newUlItem.setAttribute('class','clickable')
 			newUlItem.innerText = listItemArray[i];
 			displayList.appendChild(newUlItem);
 			newUlItem.addEventListener("click", crossOffItem);	

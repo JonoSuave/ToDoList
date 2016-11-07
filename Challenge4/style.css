@@ -8,6 +8,14 @@ img{
 	height: 100%;
 }
 
+h1{
+	top: 0px;
+	width: 55%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 28px; 
+}
+
 .input-box-container{
 	top: 5px;
 	width: 60%;
@@ -25,7 +33,7 @@ input{
 	/*Why does % work for width but not height?*/
 	height: 21px;
 	border: solid 1px grey;
-	transform: translate(0px,85px);
+	transform: translate(0px,40px);
 }
 button{
 	visibility: hidden;
@@ -119,7 +127,16 @@ textarea {
 }
 .head {
    background-color: #FFF;
-   min-height: 118px;
+   min-height: 112px;
    margin-left: -42px;
    margin-top: -4px;
+}
+
+.clickable{
+	cursor: pointer;
+	transition: font-size .5s; 
+}
+
+.clickable:hover{
+	font-size: 16px;
 }
