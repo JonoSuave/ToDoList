@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section class="paper">
+		<article class="head">
+			<div class="input-box-container">
+				<input type="text" name="to-do-item" id="toDoItem" placeholder = "ex. wash dishes, vacuum, workout, sleep" onkeydown="enterKeyPressed(event)">
+				<button onclick = "taskGenerator()">Submit Task</button>
+			</div>	
+		</article>
+		
+		<div class="to-do-item-div-list">
+			<ul id="display-list">
+			</ul>
+			<!-- <img src="images/ToDoList.png" alt="ToDoListPic" class="image-container"> -->
+		</div>
+	</section>
+
+	<script type="text/javascript" src="ToDoList.js"></script>
+</body>
+
+</html>
